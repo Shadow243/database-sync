@@ -1,0 +1,84 @@
+root { 
+    display: block;
+}
+
+a
+{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover
+{
+ color: blue;
+}
+
+body
+{
+    font-family: arial;
+    font-size: small;
+}
+
+div
+{
+    border: #cccccc 1px solid;
+    padding: 1px;
+    margin: 2px;
+}
+
+span
+{
+    padding: 2px;
+    color:#9999ff;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: xx-small;
+    display: inline;
+}
+.ul_msg
+{
+    /*list-style: none;*/
+}
+
+.ul_msg ol
+{
+    color :#000000;
+
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: xx-small;
+}
+.property_head
+{
+   
+    color:#a00;
+    font-size: small;
+    font-weight: bold;
+    padding: 4px;
+    
+    background-color: #ffcc99;
+    background-position: center;
+}
+
+.sync_head
+{
+    color:#3333ff;
+   
+    background-color: #ccccff;
+    font-weight: bold;
+}
+.table_head
+{
+    
+    color: #6666ff;
+    background-color: #f7f2d5;
+}
+.updated_row{
+    color:orange;
+}
+.inserted_row{
+    color:green;
+}
+.deleted_row{
+    color: red;
+    background-color: #ffcccc;
+}
+
